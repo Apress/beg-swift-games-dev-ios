@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6205F4481D426991002BBCFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6205F4471D426991002BBCFF /* AppDelegate.swift */; };
+		6205F44A1D426991002BBCFF /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 6205F4491D426991002BBCFF /* art.scnassets */; };
+		6205F44C1D426991002BBCFF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6205F44B1D426991002BBCFF /* GameViewController.swift */; };
+		6205F44F1D426991002BBCFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6205F44D1D426991002BBCFF /* Main.storyboard */; };
+		6205F4511D426991002BBCFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6205F4501D426991002BBCFF /* Assets.xcassets */; };
+		6205F4541D426991002BBCFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6205F4521D426991002BBCFF /* LaunchScreen.storyboard */; };
+		6214D5B71D58CC2900982B2B /* Collectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6214D5B61D58CC2900982B2B /* Collectable.swift */; };
+		62A4FD961D5BF53000A2C2AE /* testScene.scn in Resources */ = {isa = PBXBuildFile; fileRef = 62A4FD951D5BF53000A2C2AE /* testScene.scn */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6205F4441D426991002BBCFF /* Swifystein3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swifystein3D.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6205F4471D426991002BBCFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6205F4491D426991002BBCFF /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		6205F44B1D426991002BBCFF /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		6205F44E1D426991002BBCFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6205F4501D426991002BBCFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6205F4531D426991002BBCFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6205F4551D426991002BBCFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6214D5B61D58CC2900982B2B /* Collectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Collectable.swift; sourceTree = "<group>"; };
+		62A4FD951D5BF53000A2C2AE /* testScene.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = testScene.scn; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6205F4411D426991002BBCFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6205F43B1D426991002BBCFF = {
+			isa = PBXGroup;
+			children = (
+				6205F4461D426991002BBCFF /* Swifystein3D */,
+				6205F4451D426991002BBCFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6205F4451D426991002BBCFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6205F4441D426991002BBCFF /* Swifystein3D.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6205F4461D426991002BBCFF /* Swifystein3D */ = {
+			isa = PBXGroup;
+			children = (
+				6205F4471D426991002BBCFF /* AppDelegate.swift */,
+				6205F4491D426991002BBCFF /* art.scnassets */,
+				6205F44B1D426991002BBCFF /* GameViewController.swift */,
+				6205F44D1D426991002BBCFF /* Main.storyboard */,
+				6205F4501D426991002BBCFF /* Assets.xcassets */,
+				6205F4521D426991002BBCFF /* LaunchScreen.storyboard */,
+				6205F4551D426991002BBCFF /* Info.plist */,
+				6214D5B61D58CC2900982B2B /* Collectable.swift */,
+				62A4FD951D5BF53000A2C2AE /* testScene.scn */,
+			);
+			path = Swifystein3D;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6205F4431D426991002BBCFF /* Swifystein3D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6205F4581D426991002BBCFF /* Build configuration list for PBXNativeTarget "Swifystein3D" */;
+			buildPhases = (
+				6205F4401D426991002BBCFF /* Sources */,
+				6205F4411D426991002BBCFF /* Frameworks */,
+				6205F4421D426991002BBCFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swifystein3D;
+			productName = Swifystein3D;
+			productReference = 6205F4441D426991002BBCFF /* Swifystein3D.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6205F43C1D426991002BBCFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Apress;
+				TargetAttributes = {
+					6205F4431D426991002BBCFF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = AAA873G97B;
+						DevelopmentTeamName = "Wesley Matlock";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6205F43F1D426991002BBCFF /* Build configuration list for PBXProject "Swifystein3D" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6205F43B1D426991002BBCFF;
+			productRefGroup = 6205F4451D426991002BBCFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6205F4431D426991002BBCFF /* Swifystein3D */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6205F4421D426991002BBCFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6205F44A1D426991002BBCFF /* art.scnassets in Resources */,
+				6205F4541D426991002BBCFF /* LaunchScreen.storyboard in Resources */,
+				62A4FD961D5BF53000A2C2AE /* testScene.scn in Resources */,
+				6205F4511D426991002BBCFF /* Assets.xcassets in Resources */,
+				6205F44F1D426991002BBCFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6205F4401D426991002BBCFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6214D5B71D58CC2900982B2B /* Collectable.swift in Sources */,
+				6205F44C1D426991002BBCFF /* GameViewController.swift in Sources */,
+				6205F4481D426991002BBCFF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6205F44D1D426991002BBCFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6205F44E1D426991002BBCFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6205F4521D426991002BBCFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6205F4531D426991002BBCFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6205F4561D426991002BBCFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6205F4571D426991002BBCFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6205F4591D426991002BBCFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Swifystein3D/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apress.Swifystein3D;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6205F45A1D426991002BBCFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Swifystein3D/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apress.Swifystein3D;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6205F43F1D426991002BBCFF /* Build configuration list for PBXProject "Swifystein3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6205F4561D426991002BBCFF /* Debug */,
+				6205F4571D426991002BBCFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6205F4581D426991002BBCFF /* Build configuration list for PBXNativeTarget "Swifystein3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6205F4591D426991002BBCFF /* Debug */,
+				6205F45A1D426991002BBCFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6205F43C1D426991002BBCFF /* Project object */;
+}

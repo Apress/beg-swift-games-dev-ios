@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+ <asset>
+  <contributor>
+   <authoring_tool>SceneKit Collada Exporter v1.0</authoring_tool>
+  </contributor>
+  <created>2015-03-14T17:09:04Z</created>
+  <modified>2015-03-14T17:09:04Z</modified>
+  <unit meter="0.010000"/>
+  <up_axis>Y_UP</up_axis>
+ </asset>
+ <library_images>
+  <image id="image1">
+   <init_from>boxTexture.png</init_from>
+  </image>
+ </library_images>
+ <library_materials>
+  <material id="blinn5" name="boxMaterial">
+   <instance_effect url="#effect_blinn5"/>
+  </material>
+ </library_materials>
+ <library_effects>
+  <effect id="effect_blinn5">
+   <profile_COMMON>
+    <newparam sid="ID2_image1_surface">
+     <surface type="2D">
+      <init_from>image1</init_from>
+     </surface>
+    </newparam>
+    <newparam sid="ID2_image1">
+     <sampler2D>
+      <source>ID2_image1_surface</source>
+      <wrap_s>CLAMP</wrap_s>
+      <wrap_t>CLAMP</wrap_t>
+      <minfilter>LINEAR</minfilter>
+      <magfilter>LINEAR</magfilter>
+      <mipfilter>NONE</mipfilter>
+     </sampler2D>
+    </newparam>
+    <technique sid="common">
+     <phong>
+      <ambient>
+       <color>0 0 0 1</color>
+      </ambient>
+      <diffuse>
+       <texture texture="ID2_image1" texcoord="CHANNEL2"/>
+      </diffuse>
+      <specular>
+       <color>0.5 0.5 0.5 1</color>
+      </specular>
+      <shininess>
+       <float>6.31179</float>
+      </shininess>
+      <transparent opaque="RGB_ZERO">
+       <color>0 0 0 1</color>
+      </transparent>
+      <transparency>
+       <float>0</float>
+      </transparency>
+      <index_of_refraction>
+       <float>1</float>
+      </index_of_refraction>
+     </phong>
+    </technique>
+   </profile_COMMON>
+   <extra>
+    <technique profile="SceneKit">
+     <litPerPixel>1</litPerPixel>
+     <ambient_diffuse_lock>1</ambient_diffuse_lock>
+    </technique>
+   </extra>
+  </effect>
+ </library_effects>
+ <library_geometries>
+  <geometry id="pCube1-lib" name="pCube1Mesh">
+   <mesh>
+    <source id="pCube1-POSITION">
+     <float_array id="ID3-array" count="108">1.00113 8.19902 2.87157 -4.74201 8.19902 2.87157 -4.74201 2.45588 2.87157 1.00113 8.19902 2.87157 -4.74201 2.45588 2.87157 1.00113 2.45588 2.87157 1.00113 8.19902 2.87157 1.00113 8.19902 -2.87157 -4.74201 8.19902 2.87157 -4.74201 8.19902 2.87157 1.00113 8.19902 -2.87157 -4.74201 8.19902 -2.87157 1.00113 2.45588 -2.87157 -4.74201 2.45588 -2.87157 -4.74201 8.19902 -2.87157 1.00113 2.45588 -2.87157 -4.74201 8.19902 -2.87157 1.00113 8.19902 -2.87157 1.00113 2.45588 2.87157 -4.74201 2.45588 2.87157 -4.74201 2.45588 -2.87157 1.00113 2.45588 2.87157 -4.74201 2.45588 -2.87157 1.00113 2.45588 -2.87157 1.00113 8.19902 2.87157 1.00113 2.45588 2.87157 1.00113 8.19902 -2.87157 1.00113 2.45588 2.87157 1.00113 2.45588 -2.87157 1.00113 8.19902 -2.87157 -4.74201 8.19902 2.87157 -4.74201 2.45588 -2.87157 -4.74201 2.45588 2.87157 -4.74201 2.45588 -2.87157 -4.74201 8.19902 2.87157 -4.74201 8.19902 -2.87157 </float_array>
+     <technique_common>
+      <accessor source="#ID3-array" count="36" stride="3">
+       <param name="X" type="float"/>
+       <param name="Y" type="float"/>
+       <param name="Z" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="pCube1-Normal0">
+     <float_array id="ID4-array" count="108">0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 </float_array>
+     <technique_common>
+      <accessor source="#ID4-array" count="36" stride="3">
+       <param name="X" type="float"/>
+       <param name="Y" type="float"/>
+       <param name="Z" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="pCube1-UV0">
+     <float_array id="ID5-array" count="72">0.383533 0.04618 0.379882 0.270066 0.154412 0.270588 0.383533 0.04618 0.154412 0.270588 0.155329 0.045263 0.383533 0.04618 0.607419 0.047098 0.379882 0.270066 0.379882 0.270066 0.607419 0.047098 0.606501 0.270984 0.839221 0.048016 0.838303 0.271901 0.606501 0.270984 0.839221 0.048016 0.606501 0.270984 0.607419 0.047098 0.378046 0.717837 0.378964 0.493952 0.605583 0.494869 0.378046 0.717837 0.605583 0.494869 0.604666 0.718755 0.377129 0.941723 0.378046 0.717837 0.603746 0.942641 0.378046 0.717837 0.604666 0.718755 0.603746 0.942641 0.379882 0.270066 0.605583 0.494869 0.378964 0.493952 0.605583 0.494869 0.379882 0.270066 0.606501 0.270984 </float_array>
+     <technique_common>
+      <accessor source="#ID5-array" count="36" stride="2">
+       <param name="S" type="float"/>
+       <param name="T" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <vertices id="pCube1-POSITION-vertices">
+     <input semantic="POSITION" source="#pCube1-POSITION"/>
+    </vertices>
+    <triangles count="12" material="geometryElement6">
+     <input semantic="VERTEX" offset="0" source="#pCube1-POSITION-vertices"/>
+     <input semantic="NORMAL" offset="0" source="#pCube1-Normal0"/>
+     <input semantic="TEXCOORD" offset="0" source="#pCube1-UV0" set="1"/>
+     <p>0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 </p>
+    </triangles>
+   </mesh>
+  </geometry>
+ </library_geometries>
+ <library_visual_scenes>
+  <visual_scene id="scene7">
+   <node id="pCube1" name="box">
+    <instance_geometry url="#pCube1-lib">
+     <bind_material>
+      <technique_common>
+       <instance_material symbol="geometryElement6" target="#blinn5">
+        <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="1"/>
+       </instance_material>
+      </technique_common>
+     </bind_material>
+    </instance_geometry>
+   </node>
+  </visual_scene>
+ </library_visual_scenes>
+ <scene>
+  <instance_visual_scene url="#scene7"/>
+ </scene>
+</COLLADA>
